@@ -105,16 +105,8 @@ def Q3_P1():
 
 
 
-    # Writing Results To File
-    f = open("Q3_Part1.txt", "w")
-    #print("unique: " + str(NumOfUniquesPerURL))
-    #print("length: " + str(TotalNumOfWordsPerURl))
-    #print("tf coronavirus: " + str(tfOfCoronavirus))
-    #print("tf mask: " + str(tfOfMask))
-    #print("tf health: " + str(tfOfHealth))
-    #print("idf coronavirus: " + str(idfOfCoronavirus))
-    #print("tf-idf coronavirus: " + str(tfidfOfCoronavirus) + "\n")
-
+   
+    #testing basic output
     f.write("unique: " + str(NumOfUniquesPerURL) + "\n")
     f.write("length: " + str(TotalNumOfWordsPerURl) + "\n")
     f.write("tf coronavirus: " + str(tfOfCoronavirus) + "\n")
